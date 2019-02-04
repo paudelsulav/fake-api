@@ -1,9 +1,9 @@
 {
-  "menus": [
+  "menus": 
     {
       "id": 1,
       "menuname": "Usermanagement"
-  ],
+    },
   "profile": {
     "name": "typicode"
   }
