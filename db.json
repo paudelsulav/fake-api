@@ -3,19 +3,23 @@
     [{
       "id": 1,
       "menuname": "Usermanagement",
+      "menu_link": "roles",
       "submenu":
       [{
         "id": 6,
-        "menuname": "Roles"
+        "menuname": "Roles",
+            "menu_link": "roles"
       },
        {
         "id": 7,
-        "menuname": "Roles"
+        "menuname": "Users",
+               "menu_link": "users"
       }]
     },
     {
       "id": 2,
       "menuname": "Setting",
+            "menu_link": "roles",
       "submenu":
       [{
         "id": 8,
