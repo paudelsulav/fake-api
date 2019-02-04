@@ -2,7 +2,11 @@
   "menus": 
     {
       "id": 1,
-      "menuname": "Usermanagement"
+      "menuname": "Usermanagement",
+      "submenu":
+      {
+        "id": 6
+      }
     },
   "profile": {
     "name": "typicode"
