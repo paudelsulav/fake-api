@@ -4,9 +4,14 @@
       "id": 1,
       "menuname": "Usermanagement",
       "submenu":
-      {
-        "id": 6
-      }
+      [{
+        "id": 6,
+        "menuname": "Roles"
+      },
+       {
+        "id": 6,
+        "menuname": "Roles"
+      }]
     },
   "profile": {
     "name": "typicode"
