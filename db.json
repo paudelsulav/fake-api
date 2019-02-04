@@ -1,9 +1,30 @@
 {
-  "posts": [
+  "menus": [
     {
       "id": 1,
-      "title": "hello"
-    }
+      "menuname": "Usermanagement",
+      "submenu": [
+        {
+          "id": 6,
+          "menuname": "Roles"
+        },
+        
+        {
+          "id": 7,
+          "menuname": "Users"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "menuname": "Setting",
+      "submenu": [
+        {
+          "id": 8,
+          "menuname": "Company Info"
+        }
+      ]
+    },
   ],
   "profile": {
     "name": "typicode"
