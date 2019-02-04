@@ -1,5 +1,5 @@
 {
-  "menus": [
+  "posts": [
     {
       "id": 1,
       "menuname": "Usermanagement",
@@ -18,13 +18,11 @@
     {
       "id": 2,
       "menuname": "Setting",
-      "submenu": [
-        {
+      "submenu": {
           "id": 8,
           "menuname": "Company Info"
-        }
-      ]
-    },
+      }
+    }
   ],
   "profile": {
     "name": "typicode"
