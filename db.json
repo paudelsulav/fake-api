@@ -1,6 +1,6 @@
 {
   "menus": 
-    {
+    [{
       "id": 1,
       "menuname": "Usermanagement",
       "submenu":
@@ -9,10 +9,23 @@
         "menuname": "Roles"
       },
        {
-        "id": 6,
+        "id": 7,
         "menuname": "Roles"
       }]
     },
+    {
+      "id": 2,
+      "menuname": "Setting",
+      "submenu":
+      [{
+        "id": 8,
+        "menuname": "Company Info"
+      },
+       {
+        "id": 9,
+        "menuname": "Utilities"
+      }]
+    }],
   "profile": {
     "name": "typicode"
   }
