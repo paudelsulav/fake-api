@@ -4,30 +4,38 @@
       "id": 1,
       "menuname": "Usermanagement",
       "menu_link": "roles",
+      "menu_icon": "multipleusers"
       "submenu":
       [{
         "id": 6,
         "menuname": "Roles",
-            "menu_link": "roles"
+        "menu_link": "roles",
+        "menu_icon": "role"
       },
        {
         "id": 7,
         "menuname": "Users",
-               "menu_link": "users"
+        "menu_link": "users",
+        "menu_icon": "multipleusers"
       }]
     },
     {
       "id": 2,
       "menuname": "Setting",
-            "menu_link": "roles",
+      "menu_link": "roles",
+      "menu_icon": "multipleusers"
       "submenu":
       [{
         "id": 8,
-        "menuname": "Company Info"
+        "menuname": "Company Info",
+        "menu_link": "info",
+        "menu_icon": "info"
       },
        {
         "id": 9,
-        "menuname": "Utilities"
+        "menuname": "Utilities",
+        "menu_link": "utilities",
+        "menu_icon": "utility"
       }]
     }],
   "profile": {
