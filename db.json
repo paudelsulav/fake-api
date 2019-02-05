@@ -5,7 +5,7 @@
       "menuname": "Usermanagement",
       "menu_link": "roles",
       "menu_icon": "multipleusers",
-      "submenu":
+      "submenus":
       [{
         "id": 6,
         "menuname": "Roles",
@@ -24,7 +24,7 @@
       "menuname": "Setting",
       "menu_link": "roles",
       "menu_icon": "multipleusers",
-      "submenu":
+      "submenus":
       [{
         "id": 8,
         "menuname": "Company Info",
