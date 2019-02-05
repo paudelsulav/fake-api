@@ -4,7 +4,7 @@
       "id": 1,
       "menuname": "Usermanagement",
       "menu_link": "roles",
-      "menu_icon": "multipleusers"
+      "menu_icon": "multipleusers",
       "submenu":
       [{
         "id": 6,
@@ -23,7 +23,7 @@
       "id": 2,
       "menuname": "Setting",
       "menu_link": "roles",
-      "menu_icon": "multipleusers"
+      "menu_icon": "multipleusers",
       "submenu":
       [{
         "id": 8,
