@@ -23,7 +23,7 @@
       "id": 2,
       "menuname": "Setting",
       "menu_link": "roles",
-      "menu_icon": "multipleusers",
+      "menu_icon": "setting",
       "submenus":
       [{
         "id": 8,
