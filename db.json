@@ -22,7 +22,7 @@
     {
       "id": 2,
       "menuname": "Setting",
-      "menu_link": "roles",
+      "menu_link": "info",
       "menu_icon": "setting",
       "submenus":
       [{
