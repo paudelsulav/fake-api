@@ -2,48 +2,61 @@
   "menus": 
     [{
       "id": 1,
-      "menuname": "Usermanagement",
+      "menuname": "User Management",
+      "menudescription": "User Management",
       "menu_link": "roles",
       "menu_icon": "multipleusers",
+      "menu_style": "",
       "submenus":
       [{
         "id": 6,
         "menuname": "Roles",
+        "menudescription": "Roles",
         "menu_link": "roles",
-        "menu_icon": "role"
+        "menu_icon": "role",
+        "menu_style": ""
       },
        {
         "id": 7,
         "menuname": "Users",
+        "menudescription": "Users",
         "menu_link": "users",
-        "menu_icon": "multipleusers"
+        "menu_icon": "multipleusers",
+      "menu_style": ""
       }]
     },
     {
       "id": 2,
       "menuname": "Setting",
+        "menudescription": "Setting",
       "menu_link": "info",
       "menu_icon": "setting",
+      "menu_style": "",
       "submenus":
       [{
         "id": 8,
         "menuname": "Company Info",
+        "menudescription": "Company Info",
         "menu_link": "info",
-        "menu_icon": "info"
+        "menu_icon": "info",
+      "menu_style": ""
       },
        {
         "id": 9,
         "menuname": "Utilities",
+        "menudescription": "Utilities",
         "menu_link": "utilities",
-        "menu_icon": "utility"
+        "menu_icon": "utility",
+      "menu_style": ""
       }]
     }],
   "roles": [{
     "id": 1,
     "name": "Admin",
-    "description": "Admin: role to access all the menus"
-  }],
-  "role_menus": [{
+    "description": "Admin: role to access all the menus",
+  
+  "role_menus": 
+    [{
     "id": 1,
     "role_id": 1,
     "menu_id": 1
@@ -62,5 +75,30 @@
     "id": 4,
     "role_id": 1,
     "menu_id": 8
+  }]
+  }],
+  "users" : [{
+    "id": 1,
+    "roles": "Admin",
+    "locale_id": "en-US",
+    "firstname": "Sulav",
+    "middlename": "",
+    "lastname": "Paudel",
+    "email": "paudel.sulav@gmail.com",
+    "phone": "9841508740",
+    "active": true,
+    "username": "sulav",
+    "valid_password": true,
+    "sms_notify": false,
+    "secret_key": 1234
+  }],
+  "company" : [{
+    "id": 1,
+    "name": "Softweb Developers",
+    "address": "Hetauda - 02",
+    "phone": "057 522555",
+    "email": "hello@softwebdevelopers.com",
+    "pannumber": "654378729",
+    "logo_filepath": "http://softwebdevelopers/images/01_logo.png"
   }]
 }
