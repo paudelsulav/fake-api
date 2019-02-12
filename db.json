@@ -38,11 +38,11 @@
         "menu_icon": "utility"
       }]
     }],
-  "roles": {
+  "roles": [{
     "id": 1,
     "name": "Admin",
     "description": "Admin: role to access all the menus"
-  },
+  }],
   "role_menus": [{
     "id": 1,
     "role_id": 1,
