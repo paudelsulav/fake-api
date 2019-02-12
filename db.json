@@ -23,6 +23,14 @@
         "menu_link": "users",
         "menu_icon": "multipleusers",
       "menu_style": ""
+      },
+      {
+        "id": 10,
+        "menuname": "Staffs",
+        "menudescription": "Staffs",
+        "menu_link": "staff",
+        "menu_icon": "staff",
+      "menu_style": ""
       }]
     },
     {
