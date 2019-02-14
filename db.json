@@ -99,7 +99,22 @@
     "valid_password": true,
     "sms_notify": false,
     "secret_key": 1234
-  }],
+  },
+             {
+             "id": 2,
+    "roles": "Manager",
+    "locale_id": "en-US",
+    "firstname": "Prayas",
+    "middlename": "Kumar",
+    "lastname": "Sapkota",
+    "email": "sapkotaprayas@gmail.com",
+    "phone": "9851198411",
+    "active": true,
+    "username": "prayas",
+    "valid_password": true,
+    "sms_notify": true,
+    "secret_key": 1111
+             }],
   "company" : [{
     "id": 1,
     "name": "Softweb Developers",
