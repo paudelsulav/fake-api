@@ -62,28 +62,26 @@
     "id": 1,
     "name": "Admin",
     "description": "Admin: role to access all the menus",
-  
-  "role_menus": 
-    [{
-    "id": 1,
-    "role_id": 1,
-    "menu_id": 1
-  },
-                 {
-    "id": 2,
-    "role_id": 1,
-    "menu_id": 2
-  },
-                 {
-    "id": 3,
-    "role_id": 1,
-    "menu_id": 6
-  },
-                 {
-    "id": 4,
-    "role_id": 1,
-    "menu_id": 8
-  }]
+    "role_menus": [{
+        "id": 1,
+        "role_id": 1,
+        "menu_id": 1
+      },
+                     {
+        "id": 2,
+        "role_id": 1,
+        "menu_id": 2
+      },
+                     {
+        "id": 3,
+        "role_id": 1,
+        "menu_id": 6
+      },
+                     {
+        "id": 4,
+        "role_id": 1,
+        "menu_id": 8
+      }]
   }],
   "users" : [{
     "id": 1,
@@ -100,8 +98,8 @@
     "sms_notify": false,
     "secret_key": 1234
   },
-             {
-             "id": 2,
+   {
+     "id": 2,
     "roles": "Manager",
     "locale_id": "en-US",
     "firstname": "Prayas",
@@ -114,7 +112,39 @@
     "valid_password": true,
     "sms_notify": true,
     "secret_key": 1111
-             }],
+   }],
+  "staffs" : [{
+    "id": 1,
+    "firstname": "Sulav",
+    "middlename": "",
+    "lastname": "Paudel",
+    "address": "Hetauda - 04",
+    "email": "paudel.sulav@gmail.com",
+    "phone": "9841508740",
+    "landline": 057 522555,
+     "joindate": "2075-03-01",
+     "leavedate": "",
+     "designation": "Operator",
+     "salary": 10000.00,
+     "allowance": 0.00,
+    "active": true
+  },
+   {
+     "id": 2,
+    "firstname": "Prayas",
+    "middlename": "Kumar",
+    "lastname": "Sapkota",
+     "address": "Hetauda - 04",
+    "email": "sapkotaprayas@gmail.com",
+    "phone": "9851198411",
+    "landline": 057 522555,
+     "joindate": "2075-03-01",
+     "leavedate": "",
+     "designation": "Operator",
+     "salary": 10000.00,
+     "allowance": 0.00,
+    "active": true
+   }],
   "company" : [{
     "id": 1,
     "name": "Softweb Developers",
@@ -124,4 +154,5 @@
     "pannumber": "654378729",
     "logo_filepath": "http://softwebdevelopers/images/01_logo.png"
   }]
+
 }
