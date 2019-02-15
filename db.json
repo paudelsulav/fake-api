@@ -121,12 +121,12 @@
     "address": "Hetauda - 04",
     "email": "paudel.sulav@gmail.com",
     "phone": "9841508740",
-    "landline": 057 522555,
+    "landline": "057 522555",
      "joindate": "2075-03-01",
      "leavedate": "",
      "designation": "Operator",
-     "salary": 10000.00,
-     "allowance": 0.00,
+     "salary": "10000.00",
+     "allowance": "0.00",
     "active": true
   },
    {
@@ -137,12 +137,12 @@
      "address": "Hetauda - 04",
     "email": "sapkotaprayas@gmail.com",
     "phone": "9851198411",
-    "landline": 057 522555,
-     "joindate": "2075-03-01",
+    "landline": "057 522555",
+     "joindate": "2075-05-01",
      "leavedate": "",
-     "designation": "Operator",
-     "salary": 10000.00,
-     "allowance": 0.00,
+     "designation": "Incharge",
+     "salary": "10000.00",
+     "allowance": "0.00",
     "active": true
    }],
   "company" : [{
