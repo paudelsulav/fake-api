@@ -1,214 +1,218 @@
 {
-  "menus": 
-    [{
-      "id": 1,
-      "menuname": "User Management",
-      "menudescription": "User Management",
-      "menu_link": "roles",
-      "menu_icon": "multipleusers",
-      "menu_style": "",
-      "submenus":
-      [{
-        "id": 6,
-        "menuname": "Roles",
-        "menudescription": "Roles",
-        "menu_link": "roles",
-        "menu_icon": "role",
-        "menu_style": ""
-      },
-       {
-        "id": 7,
-        "menuname": "Users",
-        "menudescription": "Users",
-        "menu_link": "users",
-        "menu_icon": "multipleusers",
-      "menu_style": ""
-      },
-      {
-        "id": 10,
-        "menuname": "Staffs",
-        "menudescription": "Staffs",
-        "menu_link": "staff",
-        "menu_icon": "staff",
-      "menu_style": ""
-      },
-      {
-        "id": 11,
-        "menuname": "Board Members",
-        "menudescription": "Board Members",
-        "menu_link": "leaders",
-        "menu_icon": "leader",
-      "menu_style": ""
-      }]
-    },
-    {
-      "id": 2,
-      "menuname": "Setting",
-        "menudescription": "Setting",
-      "menu_link": "info",
-      "menu_icon": "setting",
-      "menu_style": "",
-      "submenus":
-      [{
-        "id": 8,
-        "menuname": "Company Info",
-        "menudescription": "Company Info",
-        "menu_link": "info",
-        "menu_icon": "info",
-      "menu_style": ""
-      },
-       {
-        "id": 9,
-        "menuname": "Utilities",
-        "menudescription": "Utilities",
-        "menu_link": "utilities",
-        "menu_icon": "utilities",
-      "menu_style": ""
-      },
-       {
-        "id": 12,
-        "menuname": "Clients",
-        "menudescription": "Clients",
-        "menu_link": "clients",
-        "menu_icon": "client",
-      "menu_style": ""
-      },
-       {
-        "id": 13,
-        "menuname": "Vechiles",
-        "menudescription": "Vechiles",
-        "menu_link": "vehicles",
-        "menu_icon": "vehicle",
-      "menu_style": ""
-      }]
-    }],
-  "roles": [{
-    "id": 1,
-    "name": "Admin",
-    "description": "Admin: role to access all the menus",
-    "role_menus": [{
-        "id": 1,
-        "role_id": 1,
-        "menu_id": 1
-      },
-                     {
-        "id": 2,
-        "role_id": 1,
-        "menu_id": 2
-      },
-                     {
-        "id": 3,
-        "role_id": 1,
-        "menu_id": 6
-      },
-                     {
-        "id": 4,
-        "role_id": 1,
-        "menu_id": 8
-      }]
-  }],
-  "users" : [{
-    "id": 1,
-    "roles": "Admin",
-    "locale_id": "en-US",
-    "firstname": "Sulav",
-    "middlename": "",
-    "lastname": "Paudel",
-    "email": "paudel.sulav@gmail.com",
-    "phone": "9841508740",
-    "active": true,
-    "username": "sulav",
-    "valid_password": true,
-    "sms_notify": false,
-    "secret_key": 1234
-  },
-   {
-     "id": 2,
-    "roles": "Manager",
-    "locale_id": "en-US",
-    "firstname": "Prayas",
-    "middlename": "Kumar",
-    "lastname": "Sapkota",
-    "email": "sapkotaprayas@gmail.com",
-    "phone": "9851198411",
-    "active": true,
-    "username": "prayas",
-    "valid_password": true,
-    "sms_notify": true,
-    "secret_key": 1111
-   }],
-  "staffs" : [{
-    "id": 1,
-    "firstname": "Sulav",
-    "middlename": "",
-    "lastname": "Paudel",
-    "address": "Hetauda - 04",
-    "email": "paudel.sulav@gmail.com",
-    "phone": "9841508740",
-    "landline": "057 522555",
-     "joindate": "2075-03-01",
-     "leavedate": "",
-     "designation": "Operator",
-     "salary": "10000.00",
-     "allowance": "0.00",
-    "active": true
-  },
-   {
-     "id": 2,
-    "firstname": "Prayas",
-    "middlename": "Kumar",
-    "lastname": "Sapkota",
-     "address": "Hetauda - 04",
-    "email": "sapkotaprayas@gmail.com",
-    "phone": "9851198411",
-    "landline": "057 522555",
-     "joindate": "2075-05-01",
-     "leavedate": "",
-     "designation": "Incharge",
-     "salary": "10000.00",
-     "allowance": "0.00",
-    "active": true
-   }],
-  "company" : [{
-    "id": 1,
-    "name": "Softweb Developers",
-    "address": "Hetauda - 02",
-    "phone": "057 522555",
-    "email": "hello@softwebdevelopers.com",
-    "pannumber": "654378729",
-    "logo_filepath": "http://softwebdevelopers/images/01_logo.png"
-  }],
-  "clients" : [{
-    "id": 1,
-    "firstname": "Sulav",
-    "middlename": "",
-    "lastname": "Paudel",
-    "address": "Hetauda - 04",
-    "email": "paudel.sulav@gmail.com",
-    "phone": "9841508740",
-    "landline": "057 522555",
-     "joindate": "2075-03-01",
-     "leavedate": "",
-     "designation": "Operator",
-     "salary": "10000.00",
-     "allowance": "0.00",
-    "active": true
-  },
-   {
-     "id": 2,
-    "firstname": "Prayas",
-    "middlename": "Kumar",
-    "lastname": "Sapkota",
-     "address": "Hetauda - 04",
-    "email": "sapkotaprayas@gmail.com",
-    "phone": "9851198411",
-    "landline": "057 522555",
-     "joindate": "2075-05-01",
-     "leavedate": "",
-     "designation": "Incharge",
-     "salary": "10000.00",
-     "allowance": "0.00",
-    "active": true
-   }]
+	"menus": [{
+			"id": 1,
+			"menuname": "User Management",
+			"menudescription": "User Management",
+			"menu_link": "roles",
+			"menu_icon": "multipleusers",
+			"menu_style": "",
+			"submenus": [{
+					"id": 6,
+					"menuname": "Roles",
+					"menudescription": "Roles",
+					"menu_link": "roles",
+					"menu_icon": "role",
+					"menu_style": ""
+				},
+				{
+					"id": 7,
+					"menuname": "Users",
+					"menudescription": "Users",
+					"menu_link": "users",
+					"menu_icon": "multipleusers",
+					"menu_style": ""
+				},
+				{
+					"id": 10,
+					"menuname": "Staffs",
+					"menudescription": "Staffs",
+					"menu_link": "staff",
+					"menu_icon": "staff",
+					"menu_style": ""
+				},
+				{
+					"id": 11,
+					"menuname": "Board Members",
+					"menudescription": "Board Members",
+					"menu_link": "leaders",
+					"menu_icon": "leader",
+					"menu_style": ""
+				}
+			]
+		},
+		{
+			"id": 2,
+			"menuname": "Setting",
+			"menudescription": "Setting",
+			"menu_link": "info",
+			"menu_icon": "setting",
+			"menu_style": "",
+			"submenus": [{
+					"id": 8,
+					"menuname": "Company Info",
+					"menudescription": "Company Info",
+					"menu_link": "info",
+					"menu_icon": "info",
+					"menu_style": ""
+				},
+				{
+					"id": 9,
+					"menuname": "Utilities",
+					"menudescription": "Utilities",
+					"menu_link": "utilities",
+					"menu_icon": "utilities",
+					"menu_style": ""
+				},
+				{
+					"id": 12,
+					"menuname": "Clients",
+					"menudescription": "Clients",
+					"menu_link": "clients",
+					"menu_icon": "client",
+					"menu_style": ""
+				},
+				{
+					"id": 13,
+					"menuname": "Vechiles",
+					"menudescription": "Vechiles",
+					"menu_link": "vehicles",
+					"menu_icon": "vehicle",
+					"menu_style": ""
+				}
+			]
+		}
+	],
+	"roles": [{
+		"id": 1,
+		"name": "Admin",
+		"description": "Admin: role to access all the menus",
+		"role_menus": [{
+				"id": 1,
+				"role_id": 1,
+				"menu_id": 1
+			},
+			{
+				"id": 2,
+				"role_id": 1,
+				"menu_id": 2
+			},
+			{
+				"id": 3,
+				"role_id": 1,
+				"menu_id": 6
+			},
+			{
+				"id": 4,
+				"role_id": 1,
+				"menu_id": 8
+			}
+		]
+	}],
+	"users": [{
+			"id": 1,
+			"roles": "Admin",
+			"locale_id": "en-US",
+			"firstname": "Sulav",
+			"middlename": "",
+			"lastname": "Paudel",
+			"email": "paudel.sulav@gmail.com",
+			"phone": "9841508740",
+			"active": true,
+			"username": "sulav",
+			"valid_password": true,
+			"sms_notify": false,
+			"secret_key": 1234
+		},
+		{
+			"id": 2,
+			"roles": "Manager",
+			"locale_id": "en-US",
+			"firstname": "Prayas",
+			"middlename": "Kumar",
+			"lastname": "Sapkota",
+			"email": "sapkotaprayas@gmail.com",
+			"phone": "9851198411",
+			"active": true,
+			"username": "prayas",
+			"valid_password": true,
+			"sms_notify": true,
+			"secret_key": 1111
+		}
+	],
+	"staffs": [{
+			"id": 1,
+			"firstname": "Sulav",
+			"middlename": "",
+			"lastname": "Paudel",
+			"address": "Hetauda - 04",
+			"email": "paudel.sulav@gmail.com",
+			"phone": "9841508740",
+			"landline": "057 522555",
+			"joindate": "2075-03-01",
+			"leavedate": "",
+			"designation": "Operator",
+			"salary": "10000.00",
+			"allowance": "0.00",
+			"active": true
+		},
+		{
+			"id": 2,
+			"firstname": "Prayas",
+			"middlename": "Kumar",
+			"lastname": "Sapkota",
+			"address": "Hetauda - 04",
+			"email": "sapkotaprayas@gmail.com",
+			"phone": "9851198411",
+			"landline": "057 522555",
+			"joindate": "2075-05-01",
+			"leavedate": "",
+			"designation": "Incharge",
+			"salary": "10000.00",
+			"allowance": "0.00",
+			"active": true
+		}
+	],
+	"company": [{
+		"id": 1,
+		"name": "Softweb Developers",
+		"address": "Hetauda - 02",
+		"phone": "057 522555",
+		"email": "hello@softwebdevelopers.com",
+		"pannumber": "654378729",
+		"logo_filepath": "http://softwebdevelopers/images/01_logo.png"
+	}],
+	"clients": [{
+			"id": 1,
+			"firstname": "Sulav",
+			"middlename": "",
+			"lastname": "Paudel",
+			"address": "Hetauda - 04",
+			"email": "paudel.sulav@gmail.com",
+			"phone": "9841508740",
+			"landline": "057 522555",
+			"joindate": "2075-03-01",
+			"leavedate": "",
+			"designation": "Operator",
+			"salary": "10000.00",
+			"allowance": "0.00",
+			"active": true
+		},
+		{
+			"id": 2,
+			"firstname": "Prayas",
+			"middlename": "Kumar",
+			"lastname": "Sapkota",
+			"address": "Hetauda - 04",
+			"email": "sapkotaprayas@gmail.com",
+			"phone": "9851198411",
+			"landline": "057 522555",
+			"joindate": "2075-05-01",
+			"leavedate": "",
+			"designation": "Incharge",
+			"salary": "10000.00",
+			"allowance": "0.00",
+			"active": true
+		}
+	]
 
 }
