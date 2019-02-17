@@ -31,6 +31,14 @@
         "menu_link": "staff",
         "menu_icon": "staff",
       "menu_style": ""
+      },
+      {
+        "id": 11,
+        "menuname": "Board Members",
+        "menudescription": "Board Members",
+        "menu_link": "leaders",
+        "menu_icon": "leader",
+      "menu_style": ""
       }]
     },
     {
@@ -55,6 +63,22 @@
         "menudescription": "Utilities",
         "menu_link": "utilities",
         "menu_icon": "utilities",
+      "menu_style": ""
+      },
+       {
+        "id": 12,
+        "menuname": "Clients",
+        "menudescription": "Clients",
+        "menu_link": "clients",
+        "menu_icon": "client",
+      "menu_style": ""
+      },
+       {
+        "id": 13,
+        "menuname": "Vechiles",
+        "menudescription": "Vechiles",
+        "menu_link": "vehicles",
+        "menu_icon": "vehicle",
       "menu_style": ""
       }]
     }],
@@ -153,6 +177,38 @@
     "email": "hello@softwebdevelopers.com",
     "pannumber": "654378729",
     "logo_filepath": "http://softwebdevelopers/images/01_logo.png"
-  }]
+  }],
+  "clients" : [{
+    "id": 1,
+    "firstname": "Sulav",
+    "middlename": "",
+    "lastname": "Paudel",
+    "address": "Hetauda - 04",
+    "email": "paudel.sulav@gmail.com",
+    "phone": "9841508740",
+    "landline": "057 522555",
+     "joindate": "2075-03-01",
+     "leavedate": "",
+     "designation": "Operator",
+     "salary": "10000.00",
+     "allowance": "0.00",
+    "active": true
+  },
+   {
+     "id": 2,
+    "firstname": "Prayas",
+    "middlename": "Kumar",
+    "lastname": "Sapkota",
+     "address": "Hetauda - 04",
+    "email": "sapkotaprayas@gmail.com",
+    "phone": "9851198411",
+    "landline": "057 522555",
+     "joindate": "2075-05-01",
+     "leavedate": "",
+     "designation": "Incharge",
+     "salary": "10000.00",
+     "allowance": "0.00",
+    "active": true
+   }],
 
 }
